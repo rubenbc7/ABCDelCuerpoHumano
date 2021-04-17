@@ -24,7 +24,7 @@ public class Rotation : MonoBehaviour
             dragging = false;
         }
         else if(Input.GetMouseButtonDown(0)){
-            dragging = true;
+            dragging = false;
             Debug.Log("Detecta mouse ");
         }
     }
