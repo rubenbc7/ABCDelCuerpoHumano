@@ -3,7 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cabeza
+  - Ojo
+  - Oido
+  - Nariz
+  - Boca
+  - Tronco
+  - Abdomen
+  - Estomago
+  - Espalda
+  - Brazo
+  - Hombro
+  - Codo
+  - Muneca
+  - Antebrazo
+  - Mano
+  - DedoMano
+  - Pierna
+  - Rodilla
+  - Tobillo
+  - Pie
+  - DedoPie
   layers:
   - Default
   - TransparentFX
