@@ -13,8 +13,8 @@ public class Rotation : MonoBehaviour
     public GameObject male;
     public GameObject female;
     public GameObject huesos;
-
-    public void left(){    
+    //public GameObject AnteBrazos;
+    public void left(){   
             rb = male.GetComponent <Rigidbody>();
             rb2 = female.GetComponent <Rigidbody>();
             rb3 = huesos.GetComponent <Rigidbody>(); 
@@ -25,6 +25,8 @@ public class Rotation : MonoBehaviour
             rb2.AddTorque(Vector3.down*x);
             rb3.AddTorque(Vector3.down*x);
             //rb.AddTorque(Vector3.right*y);
+            //var rotationmale = male.transform.rotation.eulerAngles;
+            //AnteBrazos.transform.rotation = Quaternion.Euler(0,rotationmale.y,0);
     }
     public void right(){    
         rb = male.GetComponent <Rigidbody>();
