@@ -13,6 +13,7 @@ public class Info : MonoBehaviour
     public GameObject COCO;
     public GameObject txt;
     public GameObject X;
+    public GameObject fondo;
 
     public void menuON(){
         Huesos.SetActive(false);
@@ -24,6 +25,7 @@ public class Info : MonoBehaviour
         COCO.SetActive(true);
         txt.SetActive(false);
         X.SetActive(true);
+        fondo.SetActive(false);
     }
 
         public void menuOFF(){
@@ -36,6 +38,7 @@ public class Info : MonoBehaviour
         COCO.SetActive(false);
         txt.SetActive(true);
         X.SetActive(false);
+        fondo.SetActive(true);
     }
 
 }
