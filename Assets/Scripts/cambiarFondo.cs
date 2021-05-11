@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class cambiarFondo : MonoBehaviour
 {
+    public GameObject blank;
+    public GameObject blank1;
     public GameObject espacio;
     public GameObject espacio1;
     public GameObject rocasAgua;
@@ -18,14 +20,16 @@ public class cambiarFondo : MonoBehaviour
     public void changeFondo()
     {
         valor++;
-        if(valor > 3)
+        if(valor > 4)
         {
             valor = 0;
         }
         if(valor == 0)
         {
-            espacio.SetActive(true);
-            espacio1.SetActive(true);
+            blank.SetActive(true);
+            blank1.SetActive(true);
+            espacio.SetActive(false);
+            espacio1.SetActive(false);
             rocasAgua.SetActive(false);
             rocasAgua1.SetActive(false);
             sailoor.SetActive(false);
@@ -35,6 +39,21 @@ public class cambiarFondo : MonoBehaviour
         }
         if(valor == 1)
         {
+            blank.SetActive(false);
+            blank1.SetActive(false);
+            espacio.SetActive(true);
+            espacio1.SetActive(true);
+            rocasAgua.SetActive(false);
+            rocasAgua1.SetActive(false);
+            sailoor.SetActive(false);
+            sailoor1.SetActive(false);
+            vaper.SetActive(false);
+            vaper1.SetActive(false);
+        }
+        if(valor == 2)
+        {
+            blank.SetActive(false);
+            blank1.SetActive(false);
             espacio.SetActive(false);
             espacio1.SetActive(false);
             rocasAgua.SetActive(true);
@@ -44,8 +63,10 @@ public class cambiarFondo : MonoBehaviour
             vaper.SetActive(false);
             vaper1.SetActive(false);
         }
-        if(valor == 2)
+        if(valor == 3)
         {
+            blank.SetActive(false);
+            blank1.SetActive(false);
             espacio.SetActive(false);
             espacio1.SetActive(false);
             rocasAgua.SetActive(false);
@@ -55,8 +76,10 @@ public class cambiarFondo : MonoBehaviour
             vaper.SetActive(false);
             vaper1.SetActive(false);
         }
-        if(valor == 3)
+        if(valor == 4)
         {
+            blank.SetActive(false);
+            blank1.SetActive(false);
             espacio.SetActive(false);
             espacio1.SetActive(false);
             rocasAgua.SetActive(false);
