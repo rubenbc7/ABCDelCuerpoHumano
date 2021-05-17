@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class seleccionCuerpo : MonoBehaviour
 {
+    [SerializeField] public GameObject negro;
     [SerializeField] private string cabeza = "Cabeza";
     [SerializeField] public GameObject txt_cabeza;
     [SerializeField] private string ojo = "Ojo";
@@ -61,6 +62,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(true);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -92,6 +94,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(true);
                     txt_oidos.SetActive(false);
@@ -123,6 +126,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(true);
@@ -154,6 +158,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -185,6 +190,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -218,6 +224,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -249,6 +256,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -280,6 +288,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -311,6 +320,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -344,6 +354,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -375,6 +386,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -406,6 +418,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -437,6 +450,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -468,6 +482,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -499,6 +514,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -530,6 +546,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -563,6 +580,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -595,6 +613,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -627,6 +646,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -659,6 +679,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
@@ -691,6 +712,7 @@ public class seleccionCuerpo : MonoBehaviour
                 Renderer selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    negro.SetActive(true);
                     txt_cabeza.SetActive(false);
                     txt_ojos.SetActive(false);
                     txt_oidos.SetActive(false);
